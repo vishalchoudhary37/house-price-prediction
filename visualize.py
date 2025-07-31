@@ -7,7 +7,7 @@ data = pd.read_csv("data.csv")
 print(data.describe())
 
 sns.pairplot(data)
-plt.suptittle("house data relationships", y = 1.02)
+plt.suptitle("House Data Relationships", y=1.02)
 plt.show()
 
 plt.figure(figsize=(8, 6))
